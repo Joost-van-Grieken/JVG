@@ -17,16 +17,6 @@ header {
     padding: 10px;
 }
 
-main h1{
-  text-align: center;
-  color: white;
-  font-size: 3em;
-}
-
-h1, h2 {
-  margin: 0 auto;
-  color: white;
-}
 
 h1 {
   font-size: 2em;
@@ -43,8 +33,45 @@ a.titel {margin:0 auto;}
   height: auto;
 }
 
-/* nav */
+/* main */
+main {
+  text-align: left;
+  margin: 40px 30px 0px 30px;
+}
 
+main p{
+  padding: 10px 0px;
+}
+
+main h2 {color: #ED1C24;}
+main h3 {color: #ED1C24;}
+
+h1, h2 {
+  margin: 0 auto;
+  color: white;
+}
+
+table {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 1.5em;
+}
+
+td {padding: 20px;}
+
+/* Flash-cards */
+article h1 {color: black;}
+article h2 {color: black;}
+
+article h1 {color: #ED1C24;}
+article h3 {color: grey;}
+
+article nav {padding-top: 30px;}
+
+/* nav */
 nav {
   width: 100%;
 }
@@ -59,7 +86,7 @@ nav ul li a {
 
 /* link color */
 
-a:link {
+a {
   color: white;
 }
 
@@ -71,89 +98,34 @@ h1:hover{
     color: #ED1C24;
 }
 
-/* main */
-.essentials{
-  display: flex;
+
+/* main image */
+.main-images {
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/essentials.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
   background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 300px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.4);
+  border-radius: 10px;
+  height: 100px;
 }
 
-.dutch101{
+.essentials {background-image: url(../images/essentials.jpg);}
+
+.dutch101 {background-image: url(../images/dutch101.jpg);}
+
+.dayxnight {background-image: url(../images/dayxnight.jpg);}
+
+.getting-around {background-image: url(../images/getting-around.jpg);}
+
+.health {background-image: url(../images/health.jpg);}
+/* dutch101 images */
+.dutch101-images {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url(../images/dutch101.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 300px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
-}
-
-.dayxnight{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/dayxnight.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 300px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
-}
-
-.getting-around{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/getting-around.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 300px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
-}
-
-.health{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/health.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 300px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
-}
-
-/* dutch101 */
-.categories{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/categories.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -163,28 +135,16 @@ h1:hover{
   margin: 20px 30px 10px 30px;
 }
 
-.flash-cards{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/...jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 410px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
-}
+.categories-image {background-image: url(../images/categories.jpg);}
+
+.flash-cards-image {background-image: url(../images/flash-cards.jpg);}
 
 /* categories */
-.order{
+.categories-images {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url(../images/order.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -194,53 +154,16 @@ h1:hover{
   margin: 20px 30px 10px 30px;
 }
 
-.purchase{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/purchase.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 200px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
-}
+.order {background-image: url(../images/order.jpg);}
 
-.directions{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/directions.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 200px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
-}
+.purchase {background-image: url(../images/purchase.jpg);}
 
-.greetings{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../images/greetings.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
-  height: 200px;
-  border-radius: 15px;
-  margin: 20px 30px 10px 30px;
-}
+.directions {background-image: url(../images/directions.jpg);}
+
+.greetings {background-image: url(../images/greetings.jpg);}
 
 /* menu page */
-.container{
+.menu {
   position: relative;
   display: flex;
   justify-content: center;
@@ -266,14 +189,27 @@ h1:hover{
 }
 
 /* conversation */
-.conversation{
+.conversation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-size: 100%;
+  height: 200px;
+  border-radius: 15px;
+  margin: 20px 30px 10px 30px;
+  background-color: #F1F2F2
+}
+
+p strong {color: #ED1C24}
+p em {color: grey;}
+
+/* flash-cards */
+.flash-cards {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-position: center;
-  background-size: 100%;
-  height: 200px;
+  height: 830px;
   border-radius: 15px;
   margin: 20px 30px 10px 30px;
   background-color: #F1F2F2
