@@ -44,7 +44,10 @@ main p{
 }
 
 main h2 {color: #ED1C24;}
-main h3 {color: #ED1C24;}
+main h3 {
+  color: #ED1C24;
+  margin-top: 1em;
+}
 
 h1, h2 {
   margin: 0 auto;
@@ -98,6 +101,14 @@ h1:hover{
     color: #ED1C24;
 }
 
+/* icons */
+.icons {
+  width: 24px;
+  align: left;
+}
+.flash-cards-icons {
+  width: 50px;
+}
 
 /* main image */
 .main-images {
