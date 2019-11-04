@@ -66,7 +66,7 @@ a {
   align: left;
 }
 .flash-cards-icons {
-  width: 50px;
+  width: 100px;
 }
 
 /* main */
@@ -223,17 +223,17 @@ p em {color: grey;}
 /* flash-cards */
 article h3 {
   color: black;
-  font-size: 2em;
+  font-size: 3em;
 }
 article h4 {
   color: grey;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 article nav {padding-top: 30px;}
 
 .flash-cards h2 {
-  font-size: 3em;
+  font-size: 4em;
   color: #ED1C24;
 }
 
