@@ -69,8 +69,10 @@ a {
   width: 62px;
   align: left;
 }
+
 .flash-cards-icons {
-  width: 100px;
+  width: 120px;
+  margin: 50px 30px;
 }
 
 /* main */
@@ -242,8 +244,6 @@ article h4 {
   font-size: 4em;
 }
 
-article nav {padding-top: 30px;}
-
 .flash-cards h2 {
   font-size: 5em;
   color: #ED1C24;
@@ -254,8 +254,8 @@ article nav {padding-top: 30px;}
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 1300px;
+  height: 1275px;
   border-radius: 15px;
-  margin: 20px 30px 10px 30px;
+  margin: 50px 30px 10px 30px;
   background-color: #F1F2F2;
 }
