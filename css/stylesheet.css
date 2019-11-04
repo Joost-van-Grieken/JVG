@@ -46,10 +46,11 @@ main {
 
 main p{
   padding: 10px 0px;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 main h2 {
+  font-size: 3em;
   color: #ED1C24;
   padding: 30px 0px;
 }
