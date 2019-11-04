@@ -234,17 +234,18 @@ p em {color: grey;}
 /* flash-cards */
 article h3 {
   color: black;
-  font-size: 3em;
+  font-size: 4em;
 }
+
 article h4 {
   color: grey;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 article nav {padding-top: 30px;}
 
 .flash-cards h2 {
-  font-size: 4em;
+  font-size: 5em;
   color: #ED1C24;
 }
 
