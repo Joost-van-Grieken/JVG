@@ -16,7 +16,7 @@ header {
   color: white;
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 30px 30px;
 }
 
 h1 {
@@ -66,7 +66,7 @@ a {
 
 /* icons */
 .icons {
-  width: 58px;
+  width: 62px;
   align: left;
 }
 .flash-cards-icons {
