@@ -24,7 +24,7 @@ h1 {
 }
 
 p {
-  font-size: 2em
+  font-size: 2em;
 }
 
 h1, h2 {
@@ -116,7 +116,7 @@ a {
 .health {background-image: url(../images/health.jpg);}
 
 /* dutch101 images */
-.select li {
+.select-dutch-101 li {
   margin-top: 50px;
   height: 600px;
 }
@@ -210,13 +210,14 @@ nav ul li a {
 .conversation h3 {
   color: #ED1C24;
   margin: 3px;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 p em {color: grey;}
 
 .conversation p {
   margin: 3px;
+  font-size: 3em;
 }
 
 .conversation {
