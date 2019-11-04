@@ -12,23 +12,26 @@ body {
 }
 
 header {
-    background-color: #ED1C24;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding: 10px;
+  background-color: #ED1C24;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 3%;
 }
 
-
 h1 {
-  font-size: 2em;
+  font-size: 3em;
+}
+
+h1, h2 {
+  margin: 0 auto;
+  color: white;
 }
 
 a {
   text-decoration: none;
+  margin: inherit;
 }
-
-a.titel {margin:0 auto;}
 
 .responsive {
   width: 100%;
@@ -38,34 +41,17 @@ a.titel {margin:0 auto;}
 /* main */
 main {
   text-align: left;
-  margin: 40px 30px 0px 30px;
+  margin: 50px;
 }
 
 main p{
   padding: 10px 0px;
 }
 
-main h2 {color: #ED1C24;}
-main h3 {
+main h2 {
   color: #ED1C24;
-  margin-top: 1em;
+  padding: 30px 0px;
 }
-
-h1, h2 {
-  margin: 0 auto;
-  color: white;
-}
-
-table {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: white;
-  font-size: 1.5em;
-}
-
-td {padding: 20px;}
 
 /* Flash-cards */
 article h1 {color: black;}
@@ -76,43 +62,43 @@ article h3 {color: grey;}
 
 article nav {padding-top: 30px;}
 
-/* nav */
-nav {
-  width: 100%;
-}
-
-nav ul li {
-  list-style-type: none;
-}
-
-nav ul li a {
-  color: #fff;
-}
-
 /* link color */
 
 a {
   color: white;
 }
 
-a:hover {
-  color: black;
-}
-
-h1:hover{
-    color: #ED1C24;
-}
-
 /* icons */
 .icons {
-  width: 24px;
+  width: 58px;
   align: left;
 }
 .flash-cards-icons {
   width: 50px;
 }
 
-/* main image */
+/* main */
+.main-img-container {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+}
+
+.main-img-container li {
+  width: 47%;
+  margin: 10px;
+  height: 300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-img-container li a {
+  font-size: 3em;
+}
+
 .main-images {
   justify-content: center;
   background-repeat: no-repeat;
@@ -120,8 +106,7 @@ h1:hover{
   text-align: center;
   background-size: cover;
   box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.4);
-  border-radius: 10px;
-  height: 100px;
+  border-radius: 20px;
 }
 
 .essentials {background-image: url(../images/essentials.jpg);}
@@ -133,7 +118,9 @@ h1:hover{
 .getting-around {background-image: url(../images/getting-around.jpg);}
 
 .health {background-image: url(../images/health.jpg);}
+
 /* dutch101 images */
+
 .dutch101-images {
   display: flex;
   justify-content: center;
@@ -176,12 +163,23 @@ h1:hover{
 .greetings {background-image: url(../images/greetings.jpg);}
 
 /* menu page */
+nav {
+  width: 100%;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
 .menu {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   background: #ED1C24;
   position: absolute;
   left: 0;
@@ -190,7 +188,7 @@ h1:hover{
   top: 0;
   height: 100%;
   width: 100%;
-  font-size: 2em;
+  font-size: 5em;
 }
 
 .cancel {
