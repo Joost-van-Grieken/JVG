@@ -1,5 +1,11 @@
 /* Images sources: International Student Guide Amsterdam */
 
+@font-face {
+  font-family:'SourceSansPro-Bold';
+  src: url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+  url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+}
+
 /* body html */
 * {
   margin:0;
@@ -18,6 +24,8 @@ header {
   align-items: center;
   padding: 30px 30px;
 }
+
+h1, h2, h3, h4 {font-family:'SourceSansPro-Bold';}
 
 h1 {
   font-size: 3em;
