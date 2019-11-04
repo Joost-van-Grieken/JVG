@@ -107,7 +107,7 @@ a {
 
 .essentials {background-image: url(../images/essentials.jpg);}
 
-.dutch101 {background-image: url(../images/dutch101.jpg);}
+.learn-dutch {background-image: url(../images/learn-dutch.jpg);}
 
 .dayxnight {background-image: url(../images/dayxnight.jpg);}
 
@@ -115,17 +115,17 @@ a {
 
 .health {background-image: url(../images/health.jpg);}
 
-/* dutch101 images */
-.select-dutch-101 li {
+/* learn-dutch images */
+.select-learn-dutch li {
   margin-top: 50px;
   height: 600px;
 }
 
-.select-dutch-101 li a {
+.select-learn-dutch li a {
   font-size: 2.5em;
 }
 
-.dutch101-images {
+.learn-dutch-images {
   display: flex;
   justify-content: center;
   flex-direction: column;
